@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eurekaserver
+  security:
+    basic:
+      enabled: true
+    user:
+      name: cursoms-eureka-user
+      password: uuksc-rereaussm-ero
+
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
